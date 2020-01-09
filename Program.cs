@@ -7,8 +7,9 @@ namespace ApiApplication {
   class Api {
     static string ApiKey = Settings.ApiKey;
     static string Secret = Settings.Secret;
+    static string Url = Settings.Url;
     static void Main(string[] args) {
-      var client = new RestClient("https://docfox-demo.herokuapp.com/api/v2/");
+      var client = new RestClient(Url);
       client.Timeout = -1;
       client.UseNewtonsoftJson();
       var request = new RestRequest("authentications/new", DataFormat.Json);
