@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>80d16367-e8a6-402a-8e94-40a9b71ec467</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.10.0" />
+    <PackageReference Include="RestSharp" Version="106.10.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+</Project>
